@@ -800,12 +800,15 @@
     <fields>
       <field>
         <name>order_id</name>
+        <rename/>
       </field>
       <field>
         <name>customer_id</name>
+        <rename/>
       </field>
       <field>
         <name>order_status</name>
+        <rename/>
       </field>
       <field>
         <name>order_date</name>
@@ -813,15 +816,19 @@
       </field>
       <field>
         <name>required_date</name>
+        <rename/>
       </field>
       <field>
         <name>shipped_date</name>
+        <rename/>
       </field>
       <field>
         <name>store_id</name>
+        <rename/>
       </field>
       <field>
         <name>staff_id</name>
+        <rename/>
       </field>
       <select_unspecified>N</select_unspecified>
     </fields>
