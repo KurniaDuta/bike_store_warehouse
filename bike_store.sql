@@ -37,10 +37,9 @@ CREATE TABLE Dim_Date (
     date_id INT PRIMARY KEY,
     full_date DATE,
     year INT,
-    quarter INT,
     month INT,
     day INT,
-    weekday VARCHAR(20)
+    month_name VARCHAR(20)
 );
 
 CREATE TABLE Fact_Stocks (
