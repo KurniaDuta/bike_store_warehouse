@@ -21,7 +21,6 @@ Dataset ini berisi data transaksi penjualan toko sepeda yang mencakup informasi 
 - **Dim_Date**: Dimensi waktu yang berisi informasi tanggal, bulan, tahun, kuartal
 - **Dim_Product**: Dimensi produk yang berisi informasi detail produk, kategori, dan merek
 - **Dim_Store**: Dimensi toko yang berisi informasi lokasi toko
-- **Dim_Staff**: Dimensi toko yang berisi informasi pegawai
 
 ### Fact Table
 - **Fact_Stocks**: Tabel fakta yang berisi data transaksi stocks dengan foreign key ke dimensi-dimensi terkait
@@ -36,5 +35,4 @@ Dataset ini berisi data transaksi penjualan toko sepeda yang mencakup informasi 
 - `Dim_Date.ktr`: Transformasi ETL untuk dimensi Date
 - `dim_product.ktr`: Transformasi ETL untuk dimensi Product
 - `dim_store.ktr`: Transformasi ETL untuk dimensi Store
-- `dim_staff.ktr`: Transformasi ETL untuk dimensi Staff
 - `fact_stocks.ktr`: Transformasi ETL untuk fakta stocks
