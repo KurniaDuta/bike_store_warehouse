@@ -15,7 +15,7 @@ Dataset ini berisi data transaksi penjualan toko sepeda yang mencakup informasi 
 
 ## Star Schema
 
-![Star Schema](star_schema.jpeg)
+![Star Schema](star_schema.png)
 
 ### Dimensi
 - **Dim_Date**: Dimensi waktu yang berisi informasi tanggal, bulan, tahun, kuartal
